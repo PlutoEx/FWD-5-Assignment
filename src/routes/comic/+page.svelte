@@ -48,6 +48,11 @@
     }
 </script>
 
+<svelte:head>
+    <title>Random Comic</title>
+    <meta name="description" content="Random comic from API" />
+</svelte:head>
+
 <div class="container">
     <h1>Random Comic</h1>
     <div>
