@@ -9,14 +9,15 @@
 		<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
 		<meta http-equiv="content-security-policy" content="">
 		<link href="../_app/immutable/assets/_layout.87e34320.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/entry/start.38a3959f.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.280e875e.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index.15fce1a5.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.273ef4f2.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/app.321113fd.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/_layout.svelte.459166f4.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.db47a452.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/paths.31b9f6cf.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.3dd273b2.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/_layout.svelte.90360a2f.js">
 		<link rel="modulepreload" href="../_app/immutable/entry/_layout.ts.822e9be0.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/_layout.79cb23d1.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/comic-page.svelte.6c1d296f.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/comic-page.svelte.69dcd082.js"><title>Random Comic</title><!-- HEAD_svelte-e4e81n_START --><meta name="description" content="Random comic from API"><!-- HEAD_svelte-e4e81n_END -->
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
@@ -27,7 +28,9 @@
                     <li class="nav-item"><a class="nav-link text-white" href="/about">About Project</a></li></ul></div></div></nav></div>
 <div id="liveAlertPlaceholder"></div>
 
-	<main class="svelte-195cvbj"><div class="container"><h1>Random Comic</h1>
+	<main class="svelte-195cvbj">
+
+<div class="container"><h1>Random Comic</h1>
     <div><div id="myId"></div>
         <button type="button" class="btn btn-primary" id="getId">Get Random ID</button>
         <div class="d-inline-block">0</div></div>
@@ -47,7 +50,7 @@
 			
 			<script>
 				{
-					__sveltekit_1n7ys1o = {
+					__sveltekit_1l2981h = {
 						env: {},
 						base: new URL("..", location).pathname.slice(0, -1),
 						element: document.currentScript.parentElement
@@ -56,10 +59,10 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("../_app/immutable/entry/start.38a3959f.js"),
-						import("../_app/immutable/entry/app.321113fd.js")
+						import("../_app/immutable/entry/start.280e875e.js"),
+						import("../_app/immutable/entry/app.3dd273b2.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_1n7ys1o.element, {
+						kit.start(app, __sveltekit_1l2981h.element, {
 							node_ids: [0, 4],
 							data,
 							form: null,
